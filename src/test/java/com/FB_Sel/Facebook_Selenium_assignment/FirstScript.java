@@ -1,9 +1,6 @@
 package com.FB_Sel.Facebook_Selenium_assignment;
 
-import static org.junit.jupiter.api.Assertions.assertTrue;
-
 import org.apache.commons.io.FileUtils;
-import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;

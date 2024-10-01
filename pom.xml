@@ -13,8 +13,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <java.version>22</java.version>
-    <maven.compiler.release>${java.version}</maven.compiler.release>
+    <maven.compiler.release>17</maven.compiler.release>
     <selenium.version>4.25.0</selenium.version>
   </properties>
 

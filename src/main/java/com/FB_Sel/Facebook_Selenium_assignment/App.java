@@ -19,9 +19,11 @@ import org.openqa.selenium.chrome.ChromeOptions;
 public class App {
     public static void main(String[] args) throws InterruptedException, IOException {
         System.out.println("Hello World!");
-        WebDriver driver = new ChromeDriver();
+        
+        
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--headless"); 
+        WebDriver driver = new ChromeDriver(options);
 
         driver.get("https://www.facebook.com/");
         driver.getTitle();

@@ -11,6 +11,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 /**
  * Hello world!
@@ -19,6 +20,8 @@ public class App {
     public static void main(String[] args) throws InterruptedException, IOException {
         System.out.println("Hello World!");
         WebDriver driver = new ChromeDriver();
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--headless"); 
 
         driver.get("https://www.facebook.com/");
         driver.getTitle();

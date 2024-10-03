@@ -1,1 +1,5 @@
-fb-sel-test-report.jpg
+.classpath
+.settings
+.project
+.mvn
+/target/

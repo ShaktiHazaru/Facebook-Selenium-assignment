@@ -1,6 +1,6 @@
-.classpath
-.settings
-.project
-.mvn
+classpath
+settings
+project
+mvn
 /target/
 fb-sel-test-report.jpg
